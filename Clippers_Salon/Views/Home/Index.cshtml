@@ -1,0 +1,533 @@
+﻿@{ Layout = null; }
+@using Clippers_Salon.Models
+@model ClipperSalonDbContext
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="discrption" content="parallax one page">
+    <meta name="keyword" content="agency, business, corporate, creative, freelancer, interior, joomla theme, K2 Blog, minimal, modern, multipurpose, personal, portfolio, responsive, simple">
+
+    <!-- Template Title -->
+    <title>@{ ViewData["Title"].ToString(); }</title>
+    <environment include="Development">
+        <!-- Font Google -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+
+        <!-- custom styles (optional) -->
+        <link href="~/Content/plugins.css" rel="stylesheet">
+        <link href="~/Content/style.css" rel="stylesheet">
+    </environment>
+
+</head>
+<body>
+
+
+    <!-- Navbar
+    ================================================== -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+
+            <a class="navbar-brand navbar-b" href="#">
+                <img src="~/images/logo-2.png" alt="logo" class="logo-1">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fas fa-bars"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="" data-scroll-nav='0'>Home <span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-scroll-nav='1'>About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-scroll-nav='2'>Services</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-scroll-nav='3'>Stylists</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-scroll-nav='4'>Gallery</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-scroll-nav='5'>Products</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-scroll-nav='6'>Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar
+    ================================================== -->
+    <!-- Header
+    ================================================== -->
+    <header class="header demo-slider w-100 height-100 cover-bg ohidden" data-scroll-index='0'>
+        <div class="owl-carousel owl-theme">
+
+            <div class="item p-relative w-100 height-100 cover-bg text-center" data-image-src="/Images/Jumbotron/Haircut1.jpg" data-overlay='7'>
+                <div class="caption v-middle p-relative">
+                    <div class="container">
+                        <h6 class="text-uppercase" data-animation-in="fadeInUp">Wine and Dine</h6>
+                        <h1 class="color-white fw600 mb-20" data-animation-in="fadeInLeft">We are Creative Business</h1>
+                        <p class="fz-16 fw400 mb-35 line-height-7 m-auto" data-animation-in="fadeInRight">Creative, smart & responsive. No coding knowledge required, Just edit text & images.Put your business into next level with it.</p>
+
+                        <a href="#" class="bttn mr-3" data-animation-in="fadeInUp">Learn More</a>
+
+                        <a href="0#" class="bttn-light" data-scroll-nav="2" data-animation-in="fadeInDown">Get Started</a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="item p-relative w-100 height-100 cover-bg text-center" data-image-src="/Images/Jumbotron/Haircut2.jpg" data-overlay='7'>
+                <div class="caption v-middle p-relative">
+                    <div class="container">
+                        <h6 class="text-uppercase" data-animation-in="fadeInUp">Wine and Dine</h6>
+                        <h1 class="color-white fw600 mb-20" data-animation-in="fadeInLeft">We are Creative Business</h1>
+                        <p class="fz-16 fw400 mb-35 line-height-7 m-auto" data-animation-in="fadeInRight">Creative, smart & responsive. No coding knowledge required, Just edit text & images.Put your business into next level with it.</p>
+
+                        <a href="#" class="bttn mr-3" data-animation-in="fadeInUp">Learn More</a>
+
+                        <a href="0#" class="bttn-light" data-scroll-nav="2" data-animation-in="fadeInDown">Get Started</a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <!-- End Header
+    ================================================== -->
+    <!-- About
+    ================================================== -->
+    <section class="about-style-3 section-padding ohidden" data-scroll-index='1'>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 section-title text-center">
+                    <h6>Best Solution For Creative Website</h6>
+                    <h3>We Are Awesome Agency</h3>
+                    <p>See how your users experience your website in realtime or view <br>trends to see any changes in performance over time.</p>
+                    <span class="inner"></span>
+                </div>
+
+                <div class="col-lg-6 sm-mb-50">
+                    <div class="part-info">
+                        <div class="sub-title mb-5">
+                            <h4>The Attorneys You Want On Your Side</h4>
+                        </div>
+                        <h5 class="fz-20 fw500 mb-30">Experience You Need. Results You Want.</h5>
+                        <p class="mb-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been 1500s. Lorem Ipsum is simply dummy text.</p>
+
+                        <a href="#" class="bttn mt-30">COMPANY HISTORY</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="part-img p-relative">
+                        <img src="~/images/about.jpg" alt="">
+                        <div class="over-info">
+                            <p class="fw400">Benefits of Working With Us</p>
+                            <a class="vid" href="https://vimeo.com/127203262"><i class="far fa-play-circle"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End About
+    ================================================== -->
+    <!-- Services
+    ================================================== -->
+    <section class="services services-style2 services-style-3 bg-light section-padding ohidden" data-scroll-index='2'>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12 section-title text-center">
+                    <h6>FOR YOUR COMFORT</h6>
+                    <h3>Stunning Things</h3>
+                    <p>See how your users experience your website in realtime or view <br>trends to see any changes in performance over time.</p>
+                    <span class="inner"></span>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-30">
+                    <div class="services-box bg-white box-padding p-relative text-center b-shadow b-radius-4">
+                        <div class="icon">
+                            <i class="jam jam-brush lg-icon color-theme"></i>
+                        </div>
+                        <div class="text">
+                            <h4 class="title-box sub-tit pb-10 mb-20">Web design</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and type setting industry.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-30">
+                    <div class="services-box bg-white box-padding p-relative text-center b-shadow b-radius-4">
+                        <div class="icon">
+                            <i class="jam jam-cogs lg-icon color-theme"></i>
+                        </div>
+                        <div class="text">
+                            <h4 class="title-box sub-tit pb-10 mb-20">Web development</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and type setting industry.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-30">
+                    <div class="services-box bg-white box-padding p-relative text-center b-shadow b-radius-4">
+                        <div class="icon">
+                            <i class="jam jam-camera lg-icon color-theme"></i>
+                        </div>
+                        <div class="text">
+                            <h4 class="title-box sub-tit pb-10 mb-20">Photography</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and type setting industry.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 xs-mb-30">
+                    <div class="services-box bg-white box-padding p-relative text-center b-shadow b-radius-4">
+                        <div class="icon">
+                            <i class="jam jam-phone lg-icon color-theme"></i>
+                        </div>
+                        <div class="text">
+                            <h4 class="title-box sub-tit pb-10 mb-20">Responsive Design</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and type setting industry.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 xs-mb-30">
+                    <div class="services-box bg-white box-padding p-relative text-center b-shadow b-radius-4">
+                        <div class="icon">
+                            <i class="jam jam-pie-chart lg-icon color-theme"></i>
+                        </div>
+                        <div class="text">
+                            <h4 class="title-box sub-tit pb-10 mb-20">Seo Freindly</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and type setting industry.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="services-box bg-white box-padding p-relative text-center b-shadow b-radius-4">
+                        <div class="icon">
+                            <i class="jam jam-wrench lg-icon color-theme"></i>
+                        </div>
+                        <div class="text">
+                            <h4 class="title-box sub-tit pb-10 mb-20">Support</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and type setting industry.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End Services
+    ================================================== -->
+    <!-- Stylists
+    ================================================== -->
+    <section class="stylist section-padding ohidden" data-scroll-index='3'>
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                @foreach (Stylist stylist in @Model.Stylists)
+                 {
+                    @stylist.Image
+                     <div class="carousel-inner">
+                         <div class="carousel-item active">
+                             <img src= "@Url.Content(stylist.Image)" alt="First slide">
+                             <div class="carousel-caption d-none d-md-block">
+                                 <h5>@stylist.FirstName @stylist.LastName</h5>
+                             </div>
+                         </div>
+
+                     </div>
+                }            
+
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+    <!-- End Stylists
+    ================================================== -->
+    <!-- Gallery
+    ================================================== -->
+    <section class="portfolio section-padding ohidden" data-scroll-index='4'>
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-12 section-title text-center">
+                    <h6>See Our Work</h6>
+                    <h3>Our Recent Work</h3>
+                    <p>I specialize in designing professional user Interfaces for web based applications that are user friendly, accessible and relevant - yet visually stunning and appealing.</p>
+                    <span class="inner"></span>
+                </div>
+
+                <div class="filtering text-center mb-30">
+                    <button type="button" data-filter='*' class="active">All</button>
+                    <button type="button" data-filter='.brand'>Brand</button>
+                    <button type="button" data-filter='.web'>Design</button>
+                    <button type="button" data-filter='.photo'>Photo</button>
+                    <button type="button" data-filter='.video'>Video</button>
+                </div>
+
+                <!-- gallery -->
+                <div class="gallery ohidden no-padding col-md-12">
+                    
+                    @foreach (FinshedWork finshedWork in @Model.FinshedWorks)
+                    {
+                        <div class="col-lg-4 col-sm-6 video web no-padding">
+                            <div class="item-img">
+                                <a class="single-image" href="@Url.Content(finshedWork.Image)"></a>
+                                <div class="part-img">
+                                    <img src="@Url.Content(finshedWork.Image)" alt="@finshedWork.Title">
+                                    <div class="overlay-img">
+                                        <h4>@finshedWork.Title</h4>
+                                        @if (@finshedWork.Stylist != null)                                                                                       
+                                        {
+                                            <h6>This work was completed by: @finshedWork.Stylist.FirstName @finshedWork.Stylist.LastName</h6>
+                                        }
+                                        <p>@finshedWork.Description</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End Gallery
+    ================================================== -->
+    <!-- Products
+    ================================================== -->
+    <section class="pricing bg-light section-padding ohidden" data-scroll-index='5'>
+        <div class="container">
+            <div class="row">
+
+                <!-- Section Title -->
+                <div class="col-12 section-title text-center">
+                    <h6>See Packages </h6>
+                    <h3>Our Prices</h3>
+                    <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima.</p>
+                    <span class="inner"></span>
+                </div>
+                <!-- End Section Title -->
+                
+                @foreach (Product product in @Model.Products)
+                {
+                    <div class="col-lg-4 sm-mb-50">
+                        <div class="pricing-item ohidden text-center">
+                            <div class="icon">
+                                <i class="jam jam-home-f lg-icon"></i>
+                            </div>
+
+                            <div class="title">
+                                <h4>@product.Name</h4>
+                            </div>
+
+                            <ul>
+                                <li>@product.Description</li>
+                                <li>@product.Vendor</li>        
+                                <li><img src="@Url.Content(@product.Image)" alt="@product.Name"/></li>
+                            </ul>
+
+                            <div class="price">
+                                <h2>@product.Price</h2>
+                            </div>
+
+                            <a href="#" class="bttn">Order Now</a>
+                        </div>
+                    </div>
+                }
+
+            </div>
+        </div>
+    </section>
+    <!-- End Products
+    ================================================== -->
+    <!-- Contact
+    ================================================== -->
+    <section class="contact-style-2 contact-default section-padding cover-bg ohidden" data-image-src="Images/bg-4.jpg" data-overlay='7' data-scroll-index='6'>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-5">
+                    <div class="part-info p-relative sm-mb-50">
+
+                        <!-- Start Section Title -->
+                        <div class="section-title section-title-2 mb-50">
+                            <h6>Get In Touch</h6>
+                            <h3>Contact Us</h3>
+                            <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima.</p>
+                        </div>
+                        <!-- End Section Title -->
+
+                        <div class="info-box p-relative mb-30">
+                            <div class="icon">
+                                <i class="jam jam-phone"></i>
+                            </div>
+                            <div class="content">
+                                <h4 class="color-white fz-16 fw600 mb-5">Phone :</h4>
+                                <p>0123456789</p>
+                            </div>
+                        </div>
+
+                        <div class="info-box p-relative mb-30">
+                            <div class="icon">
+                                <i class="jam jam-map-marker-f"></i>
+                            </div>
+                            <div class="content">
+                                <h4 class="color-white fz-16 fw600 mb-5">Address :</h4>
+                                <p>121 kingstreet Melbourne,Australia</p>
+                            </div>
+                        </div>
+
+                        <div class="info-box p-relative">
+                            <div class="icon">
+                                <i class="jam jam-envelope-f"></i>
+                            </div>
+                            <div class="content">
+                                <h4 class="color-white fz-16 fw600 mb-5">Mail :</h4>
+                                <p><a href="#">info@dimo.com</a></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-7">
+                    <div class="contact-form p-relative bg-white">
+
+                        <form class="form" id="contact-form" method="post" action="contact.php" data-toggle="validator">
+                            <div class="messages"></div>
+
+                            <div class="controls">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <input id="form_name" type="text" name="name" placeholder="Name *" required="required" data-error="name is required.">
+
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <input id="form_email" type="email" name="email" placeholder="Email *" required="required" data-error="Valid email is required.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <input id="form_subject" type="text" name="subject" placeholder="Subject">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-12 form-group">
+                                        <textarea id="form_message" name="message" class="form-control" placeholder=" Type Your Message " rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+
+                                    <div class="col-lg-12 text-center">
+                                        <button class="bttn">Send Message</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End Contact
+    ================================================== -->
+    <!-- footer
+    ================================================== -->
+    <footer class="footer-style-3 ohidden">
+        <div class="container">
+            <div class="row">
+
+                <div class="scoial-icon text-center m-auto p-relative mb-30 w-100">
+                    <a href="#0"><span><i class="fab fa-facebook-f"></i></span></a>
+                    <a href="#0"><span><i class="fab fa-twitter"></i></span></a>
+                    <a href="#0"><span><i class="fab fa-linkedin-in"></i></span></a>
+                    <a href="#0"><span><i class="fab fa-google-plus-g"></i></span></a>
+                </div>
+
+                <p class="w-100 text-center color-white fw300 fz-14">© All Rights Reserved - 2018 ZYALL by Desing Grid.</p>
+                <br/>
+
+
+            </div>
+        </div>
+    </footer>
+    <!-- End footer
+    ================================================== -->
+
+    <environment include="Development">
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="~/Scripts/jquery-3.1.1.min.js"></script>
+        <script src="~/Scripts/Migrate.js"></script>
+        <script src="~/Scripts/popper.min.js"></script>
+        <script src="~/Scripts/bootstrap.min.js"></script>
+
+        <!-- owl carousel js -->
+        <script src="~/Scripts/owl.carousel.min.js"></script>
+
+        <!-- scrollIt js -->
+        <script src="~/Scripts/scrollIt.min.js"></script>
+
+        <!-- typed -->
+        <script src="~/Scripts/typed.js"></script>
+
+        <!-- magnific-popup -->
+        <script src="~/Scripts/jquery.fancybox.min.js"></script>
+
+        <!-- isotope.pkgd.min js -->
+        <script src="~/Scripts/isotope.pkgd.min.js"></script>
+
+        <!-- YouTubePopUp -->
+        <script src="~/Scripts/YouTubePopUp.jquery.js"></script>
+
+        <!-- circle progress-->
+        <script src="~/Scripts/circle-progress.min.js"></script>
+
+        <!-- validator js -->
+        <script src="~/Scripts/validator.js"></script>
+
+        <!-- custom JavaScript -->
+        <script src="~/Scripts/custom.js"></script>
+    </environment>
+
+</body>
